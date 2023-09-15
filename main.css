@@ -1,3 +1,21 @@
+body{
+    background: #fff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Cinzel', serif;
+}
+h1{font-size: 40px;}
+h2{font-size: 36px;}
+h3{font-size: 30px;}
+h4{font-size: 24px;}
+h5{font-size: 20px;}
+h6{font-size: 18px;}
+
 /*Hero Section*/
 .aiop-account-hero-container{
     position: relative;
@@ -58,11 +76,26 @@
     margin-top: 0;
 }
 #aiop_hero_form input{
+    height: 35px;
+    width: calc(100% - 30px);
+    border: 1px solid #292E34;
+    outline: none;
+    padding: 0 15px;
     margin-bottom: 20px;
+}
+#aiop_hero_form input:hover{
+    border-color: #C79D2A;
 }
     
 #aiop_hero_form button{
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    background: #C79D2A;
+    padding: 10px 20px;
     width: 100%;
+    border: none;
 }
     
 .forgot-pass-container{
@@ -100,9 +133,12 @@
     margin-bottom: 20px;
 }
 .aiop_registration-field input{
+    width: 50%;
+    height: 35px;
     border: 1px solid #C79D2A!important;
     border-radius: 10px;
     outline: none;
+    padding: 0 15px;
 }
     
 .aiop_registration-checkbox-container{
@@ -121,9 +157,21 @@
 }
     
 .aiop_registration_btn{
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    background: #C79D2A;
+    padding: 15px 20px;
     width: 100%;
+    border: none;
     border-radius: 50px!important;
     outline: none!important;
+}
+.aiop_registration-checkbox-container label a{
+    color: #C79D2A;
+    font-weight: 600;
+    text-decoration: none;
 }
 /*End Registration Form*/
 
@@ -190,6 +238,7 @@
     gap: 10px;
 }
 .aiop_registration-field input{
+    width: calc(100% - 40px);
     font-size: 14px;
 }
 .aiop_registration-checkbox-wrap{
