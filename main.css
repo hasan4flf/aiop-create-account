@@ -6,9 +6,6 @@ body{
     margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Cinzel', serif;
-}
 h1{font-size: 40px;}
 h2{font-size: 36px;}
 h3{font-size: 30px;}
@@ -41,7 +38,7 @@ h6{font-size: 18px;}
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0,0,0,0.3);
+    /* background: rgba(0,0,0,0.3); */
     width: 100%;
     height: 100%;
     z-index: 0;
@@ -52,33 +49,41 @@ h6{font-size: 18px;}
     color: #fff;
 }
 .aiop-account-hero-heading h1{
-    font-weight: 900;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.aiop-account-hero-heading h2{
+    font-weight: 300;
+    margin-top: 0;
 }
 .aiop-account-hero-form{
-    width: 30%
+    width: 35%
 }
 #aiop_hero_form{
     background: #292E34;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 30px;
 }
 #aiop_hero_form h4,
 #aiop_hero_form h5{
-    color: #fff;
-    font-weight: 900;
     text-align: right;
 }
 #aiop_hero_form h4{
+    color: #fff;
+    font-weight: 600;
     margin: 0;
 }
 #aiop_hero_form h5{
-    font-weight: 600;
+    color: #F5F5F5;
+    font-weight: 400;
     margin-top: 0;
 }
 #aiop_hero_form input{
-    height: 35px;
+    text-align: right;
+    height: 40px;
     width: calc(100% - 30px);
-    border: 1px solid #292E34;
+    border: 1px solid #C79D2A;
+    border-radius: 6px;
     outline: none;
     padding: 0 15px;
     margin-bottom: 20px;
@@ -89,12 +94,13 @@ h6{font-size: 18px;}
     
 #aiop_hero_form button{
     cursor: pointer;
-    text-transform: uppercase;
     font-weight: 600;
     color: #fff;
     background: #C79D2A;
+    border-radius: 6px;
     padding: 10px 20px;
     width: 100%;
+    height: 40px;
     border: none;
 }
     
@@ -106,8 +112,9 @@ h6{font-size: 18px;}
 }
     
 .forgot-pass-container a{
-    color: #fff;
+    color: #9B9B9B;
     font-size: 12px!important;
+    text-decoration: none;
 }
 
 /*End Hero Section*/
@@ -134,7 +141,7 @@ h6{font-size: 18px;}
 }
 .aiop_registration-field input{
     width: 50%;
-    height: 35px;
+    height: 40px;
     border: 1px solid #C79D2A!important;
     border-radius: 10px;
     outline: none;
@@ -164,6 +171,7 @@ h6{font-size: 18px;}
     background: #C79D2A;
     padding: 15px 20px;
     width: 100%;
+    height: 50px;
     border: none;
     border-radius: 50px!important;
     outline: none!important;
